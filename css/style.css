@@ -1,4 +1,8 @@
 /**************common element start*************/
+.paddingAdd{
+  padding: 0 130px!important;
+}
+
 #more {display: none;}
 #wemore {display: none;}
 *{
@@ -132,12 +136,14 @@ width: 109px;
 .header {
   position: relative;
   background-color: black;
-  height: 100vh;
+  height: 90vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./../images/homeheader.jpg);
   /*background-attachment: fixed;*/
 }
 .header video {
@@ -188,16 +194,16 @@ header .overlay {
     display: none;
   }
 }
-contuct-wall
+
 .cente-bottom{
-  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 100px;
     padding: 15px 8px 15px 8px;
 
 }
 #cente-bottom{
     top: 42%;
     bottom: 50%;
-    translate: (-50% -42%);
+    translate:transform (-50% -42%);
 }
 .cente-bottom .src{
 width: 100%;
@@ -223,7 +229,7 @@ outline: none!important;
 .searchprop{
    background:#e9731f!important ;
    width: 100%;
-   height: 50px;
+   height: 40px;
    border-radius: 0%;
    border: none;
    color: #fff;
@@ -308,6 +314,13 @@ padding: 20px 0!important;
       .contuct-wall{
       display:none;
   }
+  .paddingAdd{
+    padding: 15px!important;
+  }
+  .salepaddingAdd{
+    padding: 0px!important;
+  }
+
 }
 .dropdown-menu{
 display: none;
@@ -430,6 +443,60 @@ transition: 0.9s;
 }
 /**************nav bar style change after scrolling end*************/
 /**************header element end*************/
+/**************gettoknow element end*************/
+.gettoknow{
+  position: relative;
+  height: 70vh;
+  margin-top: 20px;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+  padding: 0%!important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./../images/flat.jpg);
+}
+.gettoknow .overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:rgba(255,255,255,.9);
+  z-index: 1;
+}
+.gettoknowbox{
+padding-top: 100px;
+}
+.gettoknowbox h1{
+font-size: 30px;
+font-weight: bold;
+color: #000;
+text-transform: uppercase;
+}
+.gettoknowbox h2{
+font-size: 30px;
+font-weight: 300;
+color: #000;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+.gettoknowbox .hrdiv::after{
+  content: '';
+  width: 130px;
+  margin: 0 auto;
+  display: block;
+  height: 3px;
+  background: #000;
+
+}
+.gettoknowbox p{
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+/**************gettoknow element end*************/
 /**************section1 element start*************/
 .section1{
 height: auto;
@@ -450,7 +517,7 @@ transform: translateY(-12px);
 transition: transform .2s;
 } */
 .carousel img{
-height: 210px!important;
+height: 170px!important;
 width: 100%;
 }
 .carousel-inner .cursol-img-btn{
@@ -467,7 +534,7 @@ text-align: center;
 padding: 10px 0;
 transform: translate(-50%, -0%);
 background-color:rgba(0,0,0,.5);
-font-size: .8rem;
+font-size: .6rem;
 color: #fff;
 
 }
@@ -498,11 +565,11 @@ margin-bottom: 10px;
 }
 .body-desc .bodypart .dec-link{
 color: rgb(10, 10, 10);
-font-size: 18px;
+font-size: 16px;
 }
 
 .bodypart h2{
-  font-size: 18px;
+  font-size: 16px;
   color:#fc842e ;
   padding-top: 8px;
   padding-bottom: 4px;
@@ -545,15 +612,16 @@ padding-bottom: 4px;
 }
 .cardfooter a{
 color: rgb(20, 19, 19);
-font-size: .8rem;
+font-size: 10px;
 font-weight: 600;
 padding-top: 10px;
+display:block;
 }
 
 .share{
 border: 1px solid rgb(224, 216, 216);
-height: 30px;
-width: 30px;
+height: 28px;
+width: 28px;
 background-color: #fff;
 color: #808080;
 margin-left: 25%;
@@ -562,8 +630,8 @@ margin-top: 5px;
 }
 .fav{
 border: 1px solid rgb(224, 216, 216);
-height: 30px;
-width: 30px;
+height: 28px;
+width: 28px;
 background-color: #fff;
 color: #808080;
 margin-left: 0%;
@@ -600,7 +668,113 @@ font-size: 28px!important;
 letter-spacing: 2px!important;
 }
 /**************section1 element end*************/
-/**************section2 element end*************/
+/**************salesection element start*************/
+.salepaddingAdd{
+  padding: 20px 130px 0 130px!important;
+}
+.salesection{
+    position: relative;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./../images/flat.jpg);
+  }
+
+  .salesection .overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(211,211,211,.9);
+    z-index: 1;
+  }
+.saleimgbox img{
+  height: 50%;
+  width: 100%;
+  margin-bottom: 20px!important;
+}
+.saledesc{
+  margin-top:25px!important;
+}
+.saledesc h1{
+font-size: 28px;
+font-weight: bold;
+text-transform: uppercase;
+color: #000;
+}
+.saledesc h2{
+font-size: 32px;
+font-weight: 300;
+text-transform: uppercase;
+color: #000;
+}
+.saledesc .salehr::after{
+  content: '';
+  width: 105px;
+  display: block;
+  height: 2px;
+  left: 0;
+  top: 0;
+  background: #000;
+}
+.saledesc p{
+font-size: 14px;
+padding: 10px 0 0 0;
+}
+.salebutton{
+  padding: 2px 30px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  background-color: #FF8C00;
+  color:#fff;
+}
+/**************salesection element end*************/
+/**************Buysection element start*************/
+.buydesc{
+margin-top:25px!important;
+text-align: right;
+}
+.buydesc h1{
+font-size: 28px;
+font-weight: bold;
+text-transform: uppercase;
+color: #000;
+}
+.buydesc h2{
+font-size: 32px;
+font-weight: 300;
+text-transform: uppercase;
+color: #000;
+}
+.buydesc .buyhr::after{
+  content: '';
+  width: 105px;
+  display: block;
+  height: 2px;
+  margin-left: auto;
+  background: #000;
+}
+.buydesc p{
+font-size: 14px;
+padding: 10px 0 0 0;
+}
+.buybutton{
+  padding: 2px 30px;
+  border: none;
+  border-radius: 3px;
+  margin-left: auto;
+  outline: none;
+  background-color: #FF8C00;
+  color:#fff;
+
+}
+/**************Buysection element end*************/
 .section2{
 height: auto;
 width:100%;
@@ -1596,21 +1770,72 @@ margin-bottom: 60px;
 .wrapper {
     display: flex;
     position: relative;
+
 }
-.side-bar{
-height: 600px;
-width: 180px;
+.sidebar{
+height: 670px;
+width: 250px;
 left: 0;
 top:0;
-background: blue!important;
+background: #000080;
 overflow: hidden;
 }
-.main{
-  width: 180px;
-  left:180px ;
-  top:0;
+.logo1{
+  margin-bottom: 25px;
+}
+.logo1 img{
+  height: 80px;
+  width:80px;
+  border-radius: 40px;
+  display: block;
+  margin: 2px 0 30px 35px;
+}
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
 
-  overflow: hidden;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.main{
+      width: 100%;
+}
+.custnav{
+  background-color: #000;
+  color: #fff;
 }
 
 /**************Admin panel page element end*************/

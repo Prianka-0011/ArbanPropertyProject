@@ -12,17 +12,18 @@
 </head>
 <body>
 <div class="wrapper">
-<div class="side-bar">
-<h1>FGGGg</h1>
+<div class="sidebar">
+  <a href="#" class="logo1"><img class="logo12" src="images/LOGO.png" alt=""></a>
+ <a class="active" href="#home">Home</a>
 </div>
 <div class="main">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-lg custnav">
+    <a class="navbar-brand font-weight-bold" href="#">Arban</a>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item ">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Logout </a>
         </li>
 
 
